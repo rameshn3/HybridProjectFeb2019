@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.lnkd.qa.testcases.LinkedinHomeTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="verifyLogo"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.lnkd.qa.testcases.LinkedinHomeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
